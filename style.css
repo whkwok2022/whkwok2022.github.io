@@ -1,6 +1,8 @@
+
 body {
     margin: 0;
     padding: 0;
+      font-family: Arial, sans-serif;
   }
   
   header {
@@ -46,4 +48,15 @@ body {
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+  }
+
+  /*About*/
+
+  .box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
   }

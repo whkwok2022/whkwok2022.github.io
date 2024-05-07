@@ -60,3 +60,31 @@ body {
     margin-right: 50px;
     margin-top: 50px;
   }
+
+  .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 0.5fr 1fr;
+    column-gap: 5px;
+    /*Margin*/
+    margin-left: 50px;
+    margin-right: 50px;
+    /*BORDER*/
+    border-color: #000;
+    border-width: medium;
+    border-style: solid;
+    /*Padding*/
+    padding-right: 100px;
+  }
+   
+   img {
+     max-width: 50%;
+     max-height:50%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+   .text {
+     font-size: 16  px;
+   }
